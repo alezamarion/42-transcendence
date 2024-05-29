@@ -1,0 +1,29 @@
+/* static/css/success.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../images/pong_success.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: fit-content;
+}
+
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
