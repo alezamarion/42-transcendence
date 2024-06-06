@@ -20,6 +20,7 @@ def get_access_token(code: str):
         "code": code,
         "redirect_uri": os.environ.get("REDIRECT_URI"),
     }
+
     headers = {
         "Content-Type": "application/x-www-form-urlencoded",
     }

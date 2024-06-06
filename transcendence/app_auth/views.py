@@ -28,7 +28,7 @@ def intra_login_redirect(request: HttpRequest):
     code = request.GET.get("code")
     
     try:
-        user_intra = exchange_code(code)        
+        user_intra = exchange_code(code) 
         jwt_token = generate_jwt_token(user_intra)
 
         # se retona user, significa que autenticação na intra foi bem sucedida 
